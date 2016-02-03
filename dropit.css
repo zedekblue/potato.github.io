@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(images/webBG.png);
+	background-repeat: no-repeat;
+	background-position: center top; 
+	margin:0;
+	padding:0;
+	font: 13px Helvetica, sans-serif;
+	
+}
+#logoarea {
+	background: url(images/banner.png);
+	width: 900px;
+	height: 240px;
+	margin: 0 auto;
+	padding: 30px;
+	background-repeat: repeat-x;
+	border-radius: 5px;
+	font: 15px "Trebuchet MS", sans-serif;
+}
+
+#potatoplace{
+	
+	line-height: 150%;
+	width: 900px;
+	margin: 0 auto;
+	
+}
+
+footer{
+
+    width: 100%;
+    height: 293px;
+	background-image: url(images/webfooter.png);
+	background-position: center bottom; 
+	margin-top: -140px;
+	position:absolute;
+	background-repeat: no-repeat;
+	
+}
+#feetsies {
+	height: 260px;
+	width: 1030px;
+	margin: 0 auto;
+}
+#socks{
+	width: 1030px;
+	margin: 0 auto;
+}
+#indexinfo{
+	margin: 50px 10px 50px 10px;
+	width: 400px;
+	overflow:hidden;
+	display: inline-block
+
+}
+#indexlinks{
+	margin: 50px 10px 50px 10px;
+	width: 400px;
+	overflow:hidden;
+
+	
+	
+}
+#ninja{
+	display: flex;
+	justify-content: center;
+}
+#twitchtext200{
+	width: 320px;
+	height: 200px;
+	background: url(images/webDiv200.png);
+	background-position: center bottom;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 20px;
+}
+#twitchtext300{
+	width: 320px;
+	height: 300px;
+	background: url(images/webDiv300.png);
+	background-position: center bottom;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 20px;
+}
+#twitchtext500{
+	width: 320px;
+	height: 500px;
+	background: url(images/webDiv500.png);
+	background-position: center bottom;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 20px;
+}
+.taco{
+	margin: 0px 0px 0px 0px;
+
+}
+#logosonly{
+	width: 320px;
+	height: 305px;
+	background: url(images/webDiv500.png);
+	background-position: center top;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	
+	
+}
+#welcometext{
+
+	width: 300px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	
+	
+
+}
+
+
+
+
+
+
+#tacomenu{
+	background: url(images/bannerthing.png);
+	text-align:center;
+	padding: 5px;
+	opacity: .7;
+	border-radius: 15px;
+}
+#tacomenu ul{
+	list-style-type:none;
+}
+#tacomenu li{
+	display:inline;
+	padding:0px /*top*/ 50px /*right*/
+}
+#tacomenu a:link{
+	color: #FFF;
+	text-decoration: none;
+}
+#tacomenu a:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+#tacomenu a:hover{
+	color:#6FF;
+}
+
+
+
+
+#potatoplace a:link{
+	color: #FFF;
+	text-decoration: none;
+}
+#potatoplace a:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+#potatoplace a:hover{
+	color:#6FF;
+}
+
+.loli {
+	margin: 5px 13px 0px 13px;
+}
+
+
+/* 
+toppx rightpx botpx leftpx;
+*/
+/*
+a:link
+a:visited
+a:hover
+a:active
+*/
