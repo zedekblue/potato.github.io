@@ -50,24 +50,22 @@ footer{
 	margin: 0 auto;
 }
 #indexinfo{
-	margin: 50px 10px 50px 10px;
-	width: 400px;
-	overflow:hidden;
-	display: inline-block
-
+	margin: 50px 50px 50px 50px;
+	width: 320px;
+	
 }
 #indexlinks{
-	margin: 50px 10px 50px 10px;
-	width: 400px;
-	overflow:hidden;
-
-	
+	margin: 50px 50px 50px 50px;
+	width: 320px;
 	
 }
 #ninja{
+
 	display: flex;
 	justify-content: center;
+
 }
+
 #twitchtext200{
 	width: 320px;
 	height: 200px;
@@ -81,6 +79,15 @@ footer{
 	width: 320px;
 	height: 300px;
 	background: url(images/webDiv300.png);
+	background-position: center bottom;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 20px;
+}
+#twitchtext400{
+	width: 320px;
+	height: 400px;
+	background: url(images/webDiv400.png);
 	background-position: center bottom;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
